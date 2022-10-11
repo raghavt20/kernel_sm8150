@@ -14,3 +14,7 @@ steps:
   image: brock5555/kernel
   commands:
   - bash build.sh
+
+trigger:
+  event:
+  - custom
